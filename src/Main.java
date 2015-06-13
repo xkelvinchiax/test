@@ -15,5 +15,7 @@ public class Main {
 asdasdas
         dasd
         asdasdasdasdas
+                asdasdasdasas
+                asdasd
     }
 }
