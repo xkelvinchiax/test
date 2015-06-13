@@ -12,14 +12,19 @@ import org.junit.Test;
  *
  * @author Nathan Chai
  */
-public class Module_B_Test {
+public class Module_A_Test {
     
     @Test
     public void test() {
-        Module_B module_b = new Module_B();
+        Module_A module_a = new Module_A();
         
-        assertEquals("This should return Two", 2, module_b.return_two());
+        assertEquals("This should return 1", 1, module_a.return_num());
     }
     
-  
+    @Test
+    public void test2() {
+        Module_A module_a = new Module_A();
+        
+        assertEquals("This should return 2", 2, module_a.return_num() + 1);
+    }
 }
