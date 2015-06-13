@@ -8,14 +8,19 @@
  *
  * @author Nathan Chai
  */
-public class Module_A {
+public class Module_B {
+
     
-    public Module_A() {
+    public Module_B() {
         
     }
     
-    public int return_num(){
-        return 1;
+    public int return_two(){
+        int result;
+        
+        Module_A module_A = new Module_A();
+        result = module_A.return_num() + module_A.return_num();
+        return result;
     }
     
 }

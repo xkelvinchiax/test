@@ -4,18 +4,22 @@
  * and open the template in the editor.
  */
 
+
+import static org.junit.Assert.*;
+import org.junit.Test;
+
 /**
  *
  * @author Nathan Chai
  */
-public class Module_A {
+public class Module_B_Test {
     
-    public Module_A() {
+    @Test
+    public void test() {
+        Module_B module_b = new Module_B();
         
+        assertEquals("This should return Two", 2, module_b.return_two());
     }
     
-    public int return_num(){
-        return 1;
-    }
-    
+  
 }
