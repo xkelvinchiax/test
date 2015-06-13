@@ -15,7 +15,7 @@ public class Module_A {
     }
     
     public int return_num(){
-        return -1;
+        return 1;
     }
     
 }
